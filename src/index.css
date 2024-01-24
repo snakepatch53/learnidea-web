@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --max-w: 1200px;
+    --p: 40px;
+    --header-h: 65px;
+}
+
+/* FONTS */
+
+/* @font-face {
+    src: url("./assets/fonts/poppins/Poppins-Thin.ttf");
+    font-family: content;
+} */
+
+.container {
+    width: 100%;
+    max-width: var(--max-w);
+    margin: 0 auto;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding: var(--header-height);
+}
+
+@media (max-width: 500px) {
+    :root {
+        --padding: 25px;
+    }
+}
+
+@media (max-width: 400px) {
+    :root {
+        --padding: 10px;
+    }
+}
+
+@media (max-width: 300px) {
+    :root {
+        --padding: 5px;
+    }
+}
+
+/* _____________ SCROLL _ STYLES ________________ */
+.scroll-style::-webkit-scrollbar {
+    width: 7px;
+    height: 5px;
+}
+
+.scroll-style::-webkit-scrollbar-thumb {
+    background: var(--color1-bg);
+    border-radius: 4px;
+}
+
+.scroll-style::-webkit-scrollbar-thumb:hover {
+    background: var(--color1-bg);
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.scroll-style::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0);
+}
