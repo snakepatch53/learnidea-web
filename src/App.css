@@ -3,3 +3,22 @@
     max-width: var(--max-w);
     margin: 0 auto;
 }
+
+.swiper-slider-cursos-page .swiper-button-prev,
+.swiper-slider-cursos-page .swiper-button-next {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 40px !important;
+    height: 40px !important;
+    padding: 10px !important;
+    background: var(--c2-bg);
+    font-size: 1rem !important;
+    border-radius: 50%;
+}
+
+.swiper-slider-cursos-page .swiper-button-prev:after,
+.swiper-slider-cursos-page .swiper-button-next:after {
+    font-size: 1rem !important;
+    color: var(--c2-txt) !important;
+}

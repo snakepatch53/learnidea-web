@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "Fundamentos de Programación",
+        "src": "./img.cursos/1.png"
+    },
+    {
+        "id": 2,
+        "name": "Computación Básica",
+        "src": "./img.cursos/2.png"
+    },
+    {
+        "id": 3,
+        "name": "Web Scrapping con Python",
+        "src": "./img.cursos/1.png"
+    },
+    {
+        "id": 4,
+        "name": "Programación Orientada a Objetos",
+        "src": "./img.cursos/3.png"
+    },
+    {
+        "id": 5,
+        "name": "Machine Learnning",
+        "src": "./img.cursos/2.png"
+    },
+    {
+        "id": 6,
+        "name": "Protocolos de Seguridad",
+        "src": "./img.cursos/3.png"
+    },
+    {
+        "id": 7,
+        "name": "Fundamentos de Programación",
+        "src": "./img.cursos/1.png"
+    },
+    {
+        "id": 8,
+        "name": "Computación Básica",
+        "src": "./img.cursos/2.png"
+    },
+    {
+        "id": 9,
+        "name": "Web Scrapping con Python",
+        "src": "./img.cursos/1.png"
+    },
+    {
+        "id": 10,
+        "name": "Programación Orientada a Objetos",
+        "src": "./img.cursos/3.png"
+    },
+    {
+        "id": 11,
+        "name": "Machine Learnning",
+        "src": "./img.cursos/2.png"
+    },
+    {
+        "id": 12,
+        "name": "Protocolos de Seguridad",
+        "src": "./img.cursos/3.png"
+    }
+]

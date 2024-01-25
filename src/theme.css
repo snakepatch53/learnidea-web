@@ -1,8 +1,36 @@
 :root {
     --c1-bg: #1c6ccd;
     --c1-txt: #fff;
-    --c1-txt2: #3eb8c1;
+    --c1-txt2: #2edce9;
 
-    --c2-bg: #192229;
+    --c2-bg: hsl(206, 24%, 13%);
     --c2-txt: #fff;
+
+    --c3-bg: #1b2831;
+    --c3-txt: #fff;
+    --c3-txt2: #62b7f4;
+    --c3-txt3: #a4afb6;
+
+    --c4-bg: linear-gradient(90deg, #0d131b, #164986);
+    --c4-txt: #fff;
+    --c4-txt2: #fcd683;
+    --c4-txt3: #a4afb6;
+    --c4-txt4: #68a2c8;
+
+    --c5-bg: #162936;
+    --c5-txt: #fff;
+    --c5-txt2: #a4afb6;
+
+    --c6-bg: #f8e472;
+    --c6-txt: #063728;
+
+    --c7-bg: #141c21;
+    --c7-txt: #fff;
+    --c7-txt2: #a6a8aa;
+
+    --c8-bg: hsla(206, 24%, 13%, 0.7);
+    --c8-txt: #fff;
+
+    --c9-bg: #ffc240;
+    --c9-txt: #063728;
 }

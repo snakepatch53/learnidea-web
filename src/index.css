@@ -5,15 +5,36 @@
 :root {
     --max-w: 1200px;
     --p: 40px;
+    --b-header-h: 50px;
     --header-h: 65px;
+    /* --headers-h: calc(var(--header-h) + var(--b-header-h)); */
 }
 
 /* FONTS */
+@font-face {
+    src: url("./assets/fonts/baloo.ttf");
+    font-family: logo;
+}
 
-/* @font-face {
-    src: url("./assets/fonts/poppins/Poppins-Thin.ttf");
+@font-face {
+    src: url("./assets/fonts/Nunito-Regular.ttf");
+    font-family: link;
+}
+
+@font-face {
+    src: url("./assets/fonts/Righteous-Regular.ttf");
+    font-family: title;
+}
+
+@font-face {
+    src: url("./assets/fonts/Hind-Regular.ttf");
     font-family: content;
-} */
+}
+
+@font-face {
+    src: url("./assets/fonts/Allura-Regular.ttf");
+    font-family: content2;
+}
 
 .container {
     width: 100%;
@@ -28,19 +49,19 @@ html {
 
 @media (max-width: 500px) {
     :root {
-        --padding: 25px;
+        --p: 25px;
     }
 }
 
 @media (max-width: 400px) {
     :root {
-        --padding: 10px;
+        --p: 10px;
     }
 }
 
 @media (max-width: 300px) {
     :root {
-        --padding: 5px;
+        --p: 5px;
     }
 }
 
